@@ -19,7 +19,6 @@ const useCustomFormHook = () => {
             [name]: value
         });
     };
-
     const handleSubmit = (event) => {
         event.preventDefault();
         const allErrors = validate(values);
